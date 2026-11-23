@@ -239,12 +239,39 @@ Esta seção documenta as principais decisões arquiteturais (*Architecture Deci
 
 ---
 
+## 🎨 Identidade Visual & Design System
+
+A identidade visual do **Madam Oller** equilibra o calor afetivo da gastronomia tradicional (a figura da avó cozinheira) com a precisão matemática da nutrição clínica e da inteligência artificial. Para o time de engenharia, cada decisão estética é traduzida diretamente em **Design Tokens** e **Variáveis CSS semânticas**:
+
+<div align="center">
+
+| Terracota Oller (`--clr-primary`) | Creme Culinário (`--clr-bg`) | Verde Oliva (`--clr-success`) | Laranja Solar (`--brand-orange`) | Grafite Texto (`--clr-text`) |
+| :---: | :---: | :---: | :---: | :---: |
+| `#C85829` | `#F5E7CE` | `#868F54` | `#F28C28` | `#2E2E2E` |
+| Primary CTA & Logos | Canvas / Fundo PWA | Badges Despensa / Match | Selos de Quarentena / Alerta | Corpo de Texto (Contraste 10:1) |
+
+</div>
+
+* **Tipografia e Hierarquia:** Combinação da fonte geométrica e condensada `'Saira'` (títulos mobile e números do anel calórico sem quebra de linha) com a clássica e acolhedora `'Sitka'` / `'Georgia'` (ingredientes e modo de preparo de receitas).
+* **Estados Nutricionais Semânticos:** Código cromático inequívoco para os velocímetros do dashboard (`#16A34A` para meta atingida, `#EAB308` para zona de atenção e `#DC2626` para excesso de calorias ou gorduras saturadas/trans).
+
+👉 **[Acesse o Manual de Identidade Visual & Design System Completo](BRAND_GUIDELINES.md)** para conferir a documentação detalhada de tokens, escala tipográfica, biblioteca de ícones proprietários e padrões de componentes mobile-first.
+
+---
+
 ## 📂 Estrutura deste Repositório (Showcase)
 
 ```text
 madamoller-showcase/
-├── README.md                                                     # Case Study Arquitetural, Produto & UX
+├── README.md                                                     # Vitrine Técnica Principal (Arquitetura, Produto & Telas)
+├── BRAND_GUIDELINES.md                                           # Manual de Identidade Visual & Design System
 └── docs/
+    ├── brand/                                                    # Logos, Assets Vetoriais, Ícones e Padrões Visuais
+    │   ├── logo-horizontal-primary.png
+    │   ├── logo-symbol-circular.png
+    │   ├── logo-vector-deconstructed.svg
+    │   ├── app-icon-512.png
+    │   └── icon-*.png (pantry, chef, hat, diary)
     └── screenshots/                                              # Curadoria Visual Padronizada (Mock Data)
         ├── 00-logo-madamoller.png                                # Identidade Visual Oficial
         ├── 01-diario-painel-nutricional.png                      # [B2C] Visão Diária, Macros e Hidratação
