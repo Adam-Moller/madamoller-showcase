@@ -40,7 +40,7 @@ O ecossistema **Madam Oller** foi projetado para resolver uma desconexão estrut
 ### 💡 A Solução Madam Oller
 
 Uma plataforma unificada **Offline-First (PWA)** onde:
-* O usuário gerencia sua **Despensa Virtual** (via toque rápido, leitura de nota fiscal ou **Scanner de Código de Barras EAN em WebAssembly**) e recebe receitas geradas e auditadas que cruzam o estoque disponível em casa com seu orçamento calórico e metas de saúde.
+* O usuário gerencia sua **Despensa Virtual** (via toque rápido ou **Scanner de Código de Barras EAN em WebAssembly**) e recebe receitas geradas e auditadas que cruzam o estoque disponível em casa com seu orçamento calórico e metas de saúde.
 * Uma **Calculadora Reversa de Porções** converte instantaneamente quantas calorias o usuário pode ingerir naquela refeição no peso exato em gramas que ele deve servir na balança.
 * **Nutricionistas e Personal Trainers** conectam-se à conta do paciente/aluno em tempo real, injetando metas clínicas, ingredientes obrigatórios na IA, pastas de receitas com cálculo automático de lista de compras e treinos parametrizados por gasto metabólico (**METs**).
 * **Marcas de Alimentos** transformam o código de barras físico de suas embalagens em um **Hub Digital de Receitas Dinâmico**, acessam inteligência de co-ocorrência de despensa (**Pantry Analytics**) e patrocinam ingredientes de forma nativa no momento exato do preparo (**Retail Media na Cozinha**).
